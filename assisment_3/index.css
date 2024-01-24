@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/bg.png) ;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 90px;
+
+
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+   text-align: center;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+   
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(225, 140, 12);
+}
+.md{
+   
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 20px;
+    margin-left: 15px;
+  
+    
+}
+.md img{
+    width: 80px;
+   
+}
+.mdn{
+    /* justify-content: center; */
+    align-items: center;
+    
+   
+    margin-top: 20px;
+    margin-right: 35px;
+
+}
+.mdn button{
+    width: 105px;
+    height: 26px;
+    background-color:rgb(224, 74, 171);
+    border-radius: 5px;
+    color: white;
+}
+.mdn button:hover{
+    background-color: rgb(225, 140, 12);
+    color: black;
+    cursor: pointer;
+}
+main{
+    margin-top: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+main h1{
+    font-size: 50px;
+    font-weight: 600;
+   
+    margin-top: 80px;
+}
+.pw p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+main button{
+    width: 15rem;
+    height: 3rem;
+    background-color:rgb(224, 74, 171);
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+main button:hover{
+    background-color: rgb(225, 140, 12);
+    color: black;
+    cursor: pointer;
+}
+
