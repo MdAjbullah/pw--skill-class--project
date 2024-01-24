@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            display: grid;
+            height: 700px;
+            /* grid-template-columns: 200px 200px 200px 200px; */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+            grid-template-rows: repeat(4,250px);
+            border: 5px solid black;
+            gap: 10px;
+            grid-template-columns: repeat(4, 1fr); 
+        }   
+        .box{
+            /* height: 100px;
+            width: 100px; */
+            /* margin: 10px solid black;
+            gap: 10px; */
+
+
+        }
+        .box1{
+            background-color: red;
+            /* border: 10px solid black; */
+            /* grid-row-start: 1;
+            grid-row-end: 4; */
+        }
+        .box2{
+            background-color: green;
+        }
+        .box3{
+            background-color: blue;
+        }
+        .box4{
+            background-color: yellow;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        
+      
+
+    </style>
+</head>
+<body>
+    <!-- grid -->
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+    
+</body>
+</html>

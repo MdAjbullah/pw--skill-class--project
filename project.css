@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    box-sizing: border-box;
+    /* align-items: center; */
+    
+}
+
+body{
+    margin-top: 20px;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-color:rgb(red, green, blue);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+
+}
+/* button */
+button{
+    background-color:rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    width: fit-content;
+    padding: 4px 10px;
+}
+button:hover{
+    background-color: magenta;
+    color: rgb(18, 155, 155);
+}
+/* nav-bar */
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+nav.logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav,ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   font-weight: 500;
+    
+   
+}
+nav ul li i, a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    color: gray;
+
+}
+.search{
+    display: flex;
+    gap: 35px;
+  
+   
+
+}
+input{
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+   
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.left-context{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.right-context, h1 span{
+    color: rgb(18, 155, 155);
+    font-size: 42px;
+    font-weight: 900;
+    /* margin-bottom: 20px; */
+}
+.right-context, p{
+    font-weight: 500;
+
+}
+.right-context p, span{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(18, 155, 155);
+
+}
+.right-context{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+button .right-context{
+    display: flex;
+
+}
+.right-context img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    padding: 50px 0;
+    
+    justify-content: space-around
+   
+}
+footer p{
+    /* font-size: 20px; */
+    font-weight: 600;
+    align-items: start;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.ul, li a :hover{
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.coppy{
+    align-items: self-start;
+}
+.ul {
+    align-items: self-end;
+}
+
